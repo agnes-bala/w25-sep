@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "",
+      "gender": "",
+      "status": false,
+      "age": ""
+    }
+  ],
+  "foodDetails": [
+    {
+      "id": "FRI",
+      "date": "30-05-2025",
+      "status": true,
+      "food": 0
+     
+    },
+    {
+      "id": "SAT",
+      "date": "31-05-2025",
+      "status": true,
+      "food": 0
+     
+    }
+  ]
+}
