@@ -35,9 +35,9 @@ export type ConfigValue = {
 export const CONFIG: ConfigValue = {
   appName: 'Womens Camp',
   appVersion: packageJson.version,
-  // serverUrl: 'http://10.20.1.127:8080/womenscamp',
+  serverUrl: 'http://10.20.1.36:8091/womenscamp',
   //  serverUrl: process.env.NODE_ENV === 'production' ?  'http://connect-service.jesusredeems.org' : 'http://10.20.1.127:8082',
-  serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '',
+  // serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '',
   assetsDir: process.env.NEXT_PUBLIC_ASSETS_DIR ?? '',
   isStaticExport: JSON.parse(`${process.env.BUILD_STATIC_EXPORT}`),
   /**
