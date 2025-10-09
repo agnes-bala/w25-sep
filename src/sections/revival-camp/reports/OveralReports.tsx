@@ -183,9 +183,9 @@ const OverallReports = () => {
             <Field.Select name="campDates" label="Camp Dates" size="small" required>
               <MenuItem value="All">All</MenuItem>
               {/* Add actual camp date options here */}
-              <MenuItem value="22-09-2025">22-09-2025</MenuItem>
-              <MenuItem value="22-09-2025">22-09-2025</MenuItem>
-              <MenuItem value="23-09-2025">23-09-2025</MenuItem>
+              <MenuItem value="09-10-2025">09-10-2025</MenuItem>
+              <MenuItem value="10-10-2025">10-10-2025</MenuItem>
+              <MenuItem value="11-10-2025">11-10-2025</MenuItem>
             </Field.Select>
           </Grid2>
           <Grid2 size={{ xs: 12, md: 2 }}>

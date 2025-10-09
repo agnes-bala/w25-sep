@@ -78,17 +78,18 @@ const getCheckInItems = (role?: string) => {
 const getReportItems = (role?: string) => {
   const baseItems = [
     // { title: 'My Entries Report', path: paths.dashboard.reports.root },
-    { title: 'Location Based Report', path: paths.revivalFest.reports.location },
+
     { title: 'Check Report', path: paths.revivalFest.reports.check },
     { title: 'All Report', path: paths.revivalFest.reports.overall },
-    //  { title: 'Add Settlements', path: paths.revivalFest.reports. },
-    { title: 'Settlements', path: paths.revivalFest.reports.settlements },
+
     { title: 'Amount Report', path: paths.revivalFest.reports.amount },
   ];
 
   const adminItems = [
     // { title: 'All Report', path: paths.dashboard.reports.overall },
+    { title: 'Location Based Report', path: paths.revivalFest.reports.location },
     { title: 'Custom Report', path: paths.revivalFest.reports.custom },
+    { title: 'Settlements', path: paths.revivalFest.reports.settlements },
   ];
 
   switch (role) {
